@@ -538,12 +538,15 @@ section.payments {
       text-align: center;
       color: #030e218c; }
 
-.header {
-  box-shadow: 0 .1rem 1rem rgba(0,0,0,.1) !important; 
-  padding: 1rem 3rem;
+.fs-12 {
+  font-size: 12px !important;
 }
 .fs-14 {
   font-size: 14px !important;
+}
+.header {
+  box-shadow: 0 .1rem 1rem rgba(0,0,0,.1) !important; 
+  padding: 1rem 3rem;
 }
 .pt-8 {
   padding-top: 8rem !important;
