@@ -25,7 +25,7 @@
   </head>
   <body>
     <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="padding: 1rem 3rem;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow" style="padding: 1rem 3rem;">
       <a class="navbar-brand" href="#">
         <img src="assets/img/papercut_logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         PapercutLabs
@@ -87,26 +87,92 @@
             Come join us an experience the awesome features we built for <br/> you and your business.
           </div>
         </div>
-        <div class="row text-center">
+        <div class="row text-center mb-4">
           <div class="offset-md-1 col-md-2">
-            <i class="fas fa-camera-retro"></i>
-            <p>Social media</p>
+            <img src="assets/img/icons/social_media.png" />
+            <p class="text-dark m-3">Social media</p>
           </div>
           <div class="col-md-2">
-            <i class="fas fa-camera-retro"></i>
-            <p>Social media</p>
+            <img src="assets/img/icons/banner_ads.png" />
+            <p class="text-dark m-3">Banner ads</p>
           </div>
           <div class="col-md-2">
-            <i class="fas fa-camera-retro"></i>
-            <p>Social media</p>
+            <img src="assets/img/icons/post_cards.png" />
+            <p class="text-dark m-3">Post cards</p>
           </div>
           <div class="col-md-2">
-            <i class="fas fa-camera-retro"></i>
-            <p>Social media</p>
+            <img src="assets/img/icons/presentations.png" />
+            <p class="text-dark m-3">Presentations</p>
           </div>
           <div class="col-md-2">
-            <i class="fas fa-camera-retro"></i>
-            <p>Social media</p>
+            <img src="assets/img/icons/quotes.png" />
+            <p class="text-dark m-4">Quote cards</p>
+          </div>
+        </div>
+        <div class="row text-center my-4 py-4">
+          <div class="offset-md-1 col-md-2">
+            <img src="assets/img/icons/broucher.png" />
+            <p class="text-dark m-3">Brochure</p>
+          </div>
+          <div class="col-md-2">
+            <img src="assets/img/icons/t-shirt.png" />
+            <p class="text-dark m-3">T-shirt</p>
+          </div>
+          <div class="col-md-2">
+            <img src="assets/img/icons/book_cd_cover.png" />
+            <p class="text-dark mt-3">Book & CD Covers</p>
+          </div>
+          <div class="col-md-2">
+            <img src="assets/img/icons/blog_post.png" />
+            <p class="text-dark m-3">Blog post</p>
+          </div>
+          <div class="col-md-2">
+            <img src="assets/img/icons/billboards.png" />
+            <p class="text-dark m-3">Billboards</p>
+          </div>
+        </div>
+        <div class="row text-center my-4 py-4">
+          <div class="offset-md-1 col-md-2">
+            <img src="assets/img/icons/flyers.png" />
+            <p class="text-dark m-3">Flyers</p>
+          </div>
+          <div class="col-md-2">
+            <img src="assets/img/icons/posters.png" />
+            <p class="text-dark m-3">Posters</p>
+          </div>
+          <div class="col-md-2">
+            <img src="assets/img/icons/menu.png" />
+            <p class="text-dark m-3">Menu cards</p>
+          </div>
+          <div class="col-md-2">
+            <img src="assets/img/icons/newsletter.png" />
+            <p class="text-dark m-3">Newsletters</p>
+          </div>
+          <div class="col-md-2">
+            <img src="assets/img/icons/logo_branding.png" class="mt-2"/>
+            <p class="text-dark mt-4">Logo & Branding</p>
+          </div>
+        </div>
+        <div class="row text-center my-4 py-4">
+          <div class="offset-md-1 col-md-2">
+            <img src="assets/img/icons/stationery.png" />
+            <p class="text-dark m-3">Stationery</p>
+          </div>
+          <div class="col-md-2">
+            <img src="assets/img/icons/web_design.png" />
+            <p class="text-dark m-3">Web UI</p>
+          </div>
+          <div class="col-md-2">
+            <img src="assets/img/icons/mobile_apps.png" />
+            <p class="text-dark m-3">Mobile apps</p>
+          </div>
+          <div class="col-md-2">
+            <img src="assets/img/icons/illustration.png" />
+            <p class="text-dark m-3">Illustrations</p>
+          </div>
+          <div class="col-md-2">
+            <img src="assets/img/icons/icons.png" />
+            <p class="text-dark m-4">Icons</p>
           </div>
         </div>
       </section>
@@ -192,7 +258,7 @@
         <i class="fs-14 text-secondary">Co-Founder</i></p>
         <div class="row">
           <p class="offset-md-3 col-md-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
           </p>
         </div>
       </section>
@@ -259,41 +325,52 @@
         <div class="section-title text-center">
           <p class="black-text">Frequently Asked Questions</p>
         </div>
-        <div class="row">
+        <div class="row">          
           <div class="col-md-8 offset-md-2 mb-20 px-4 py-3 shadow">
-            <strong>
+            <strong id="faq-1-trigger" class="cursor-pointer">
               Are there any additional / hidden fees?
               <span class="float-right">
-                <i class="fas fa-chevron-down"></i>
+                <i id="faq-1-icon" class="fas fa-chevron-down"></i>
               </span>
             </strong>
+            <div id="faq-1-content" style="display: none;">
+              <hr class="my-3" />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum consequatur illum, commodi incidunt veritatis qui nostrum eaque
+            </div>
           </div>
           <div class="col-md-8 offset-md-2 mb-20 px-4 py-3 shadow">
-            <strong>
+            <strong id="faq-2-trigger" class="cursor-pointer">
               Are there any contract boundation?
               <span class="float-right">
-                <i class="fas fa-chevron-down"></i>
+                <i id="faq-2-icon" class="fas fa-chevron-down"></i>
               </span>
             </strong>
+            <div id="faq-2-content" style="display: none;">
+              <hr class="my-3" />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum consequatur illum, commodi incidunt veritatis qui nostrum eaque
+            </div>
           </div>
           <div class="col-md-8 offset-md-2 mb-20 px-4 py-3 shadow">
-              <strong>
-                Are there any additional / hidden fees?
-                <span class="float-right">
-                  <i class="fas fa-chevron-down"></i>
-                </span>
-              </strong>
+            <strong id="faq-3-trigger" class="cursor-pointer">
+              Are there any additional / hidden fees?
+              <span class="float-right">
+                <i id="faq-3-icon" class="fas fa-chevron-down"></i>
+              </span>
+            </strong>
+            <div id="faq-3-content" style="display: none;">
+              <hr class="my-3" />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum consequatur illum, commodi incidunt veritatis qui nostrum eaque
+            </div>
           </div>
           <div class="col-md-8 offset-md-2 mb-20 px-4 py-3 shadow">
-            <div class="mb-1">
-            <strong>
+            <strong id="faq-4-trigger" class="cursor-pointer">
               Are there any contract boundation?
               <span class="float-right">
-                <i class="fas fa-chevron-down"></i>
+                <i id="faq-4-icon" class="fas fa-chevron-down"></i>
               </span>
-            </strong>
-          </div>
-            <div class="border-top pt-1">
+            </strong>            
+            <div id="faq-4-content" style="display: none;">
+              <hr class="my-3" />
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum consequatur illum, commodi incidunt veritatis qui nostrum eaque
             </div>
           </div>
@@ -349,6 +426,8 @@
       </div>
     </section>
     <!-- / Footer -->
+    <script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="assets/js/functions.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js"></script>
     <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
   </body>
