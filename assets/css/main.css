@@ -465,6 +465,7 @@ section {
 section.payments {
   background-color: #75dbfa;
   background: -webkit-linear-gradient(45deg, #75dbfa 0%, #529dff 100%);
+  max-height: 700px;
   z-index: -1000;
   padding: 60px; }
   section.payments p.black-text {
@@ -562,4 +563,9 @@ section.payments {
 }
 .shadow {
   box-shadow: 0 .1rem 1rem rgba(0,0,0,.1) !important; 
+}
+.p-b-l-0 {
+  position: absolute;
+  bottom: 0;
+  left: 0; 
 }
